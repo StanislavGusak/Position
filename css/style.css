@@ -1,0 +1,167 @@
+body {
+    max-width: 1440px;
+    background: #FFFFFF;
+    color: #000000;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+sup {
+    vertical-align: top;
+}
+
+mark {
+    background: #cfcece;
+}
+
+b {
+    font-weight: 700;
+}
+
+i {
+    font-style: italic;
+}
+
+hr {
+    margin: 0;
+}
+
+/* header */
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 13px auto 0;
+    max-width: 1200px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.lang {
+    font-family: 'Tourney';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.nav__item--link {
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.nav__link {
+    margin: 0 10px;
+}
+
+/* main */
+
+.wrapper {
+    position: relative;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 70px auto 90px;
+}
+
+.main {
+    max-width: 785px;
+    margin-left: 30px;
+}
+
+.background {
+    max-width: 760px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.section:not(:first-child) {
+    margin-top: 70px;
+}
+
+.divider {
+    display: inline-block;
+    width: 100px;
+    height: 8px;
+    background: #000000;
+}
+
+.title {
+    margin-top: 20px;
+}
+
+.section__title {
+    display: inline-block;
+    font-family: 'Francois One';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.title__item {
+    font-family: 'Farro';
+    font-weight: 300;
+    font-size: smaller;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+}
+
+.section__text {
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    margin-top: 40px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/* sidebar */
+
+.sidebar {
+    max-width: 385px;
+}
+
+.sidebar__list {
+    margin-left: 10px;
+}
+
+.list__item {
+    margin-bottom: 10px;
+}
+
+.list__item:not(:first-child) {
+    margin-top: 70px;
+}
+
+.list__item:first-child {
+    margin-top: 10px;
+}
