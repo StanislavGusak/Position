@@ -40,8 +40,6 @@ hr {
     top: 0;
     left: 0;
     right: 0;
-    background: #FFFFFF;
-    z-index: 1;
 }
 
 .header__container {
