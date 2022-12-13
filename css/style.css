@@ -4,6 +4,7 @@ body {
     color: #000000;
     margin: 0 auto;
     box-sizing: border-box;
+    font-family: 'PT Sans';
 }
 
 a {
@@ -40,6 +41,8 @@ hr {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
+    background: #FFFFFF;
 }
 
 .header__container {
@@ -151,7 +154,6 @@ hr {
 }
 
 .section__text {
-    font-family: 'PT Sans';
     font-weight: 400;
     font-size: 28px;
     line-height: 48px;
